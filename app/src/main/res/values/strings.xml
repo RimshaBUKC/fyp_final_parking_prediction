@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">fyp_final</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="out_of_linearlayout_framelayout"><![CDATA[OUT OF /> </LinearLayout> </FrameLayout>]]></string>
+    <string name="LuckyoneMall">Luckyone Mall</string>
+    <string name="_4500">4500</string>
+    <string name="direction">Direction</string>
+    <string name="out_of_5500">OUT OF 5500</string>
+    <string name="todo4">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="dashboard1">Dashboard</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="dashboard2">Dashboard</string>
+    <string name="todo5">TODO</string>
+    <string name="user">user</string>
+    <string name="todo6">TODO</string>
+    <string name="registrar">registrar</string>
+    <string name="direction3">direction</string>
+    <string-array name="city">
+        <item>select city</item>
+        <item>Karachi</item>
+        <item>lahore</item>
+        <item>Islamabad</item>
+    </string-array>
+
+</resources>

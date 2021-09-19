@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4"
+
+    tools:ignore="ExtraText">
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activity2">
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:id="@+id/spinner1"
+            android:entries="@array/city"
+            android:background="@color/cardview_light_background"
+            tools:ignore="MissingConstraints">
+
+        </Spinner>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" />
+
+
+    </LinearLayout>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="150dp"
+        android:layout_height="150sp"
+        android:gravity="start"
+        android:src="@drawable/gif3"
+        tools:ignore="MissingConstraints">
+
+    </pl.droidsonroids.gif.GifImageView>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200sp"
+        android:layout_gravity="bottom"
+
+        android:src="@drawable/pp"
+
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo4" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+
+            android:layout_width="294dp"
+            android:layout_height="51dp"
+            android:layout_gravity="right"
+            android:src="@drawable/o"
+            tools:ignore="RtlHardcoded"
+            android:contentDescription="@string/todo1">
+            "
+            android:translationY="5dp">
+
+        </ImageView>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:text="@string/dashboard2"
+            android:layout_gravity="bottom"
+            android:textColor="#ffff"
+            android:textSize="30sp">
+
+        </TextView>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
